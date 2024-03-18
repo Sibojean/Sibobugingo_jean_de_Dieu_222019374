@@ -1,0 +1,208 @@
+<html>
+<head>
+	<title>My Book</title>
+</head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<body bgcolor="white">
+    <p>
+    	<center>
+    	<ul style="list-style-type: none;  padding: 0;">
+        <li style="display: inline; background-color:pink; margin-right: 10px"><a href="./home.html">HOME</a></li>
+        <li style="display: inline; background-color:pink; margin-right: 10px"><a href="./about.html">ABOUT</a></li>
+        <li style="display: inline; background-color:pink; margin-right: 10px"><a href="./contact.html">CONTACT</a></li>
+        <li style="display: inline; background-color:pink; margin-right: 10px"><a href="./services.html">SERVICES</a></li>
+        <li style="display: inline; background-color:pink; margin-right: 10px"><a href="./form.html">FORM</a></li>
+        <li style="display: inline; background-color:pink; margin-right: 10px"><a href="./table.html">TABLE</a></li>
+        <li style="display: inline; background-color:pink; margin-right: 10px"><a href="./MyBook.html">MYBOOK</a></li>
+    </ul></center>
+</p>
+<h1>DATABASE AND JAVA OF ONLINE BANKING</h1>
+	<ol><h2><u><li>DATABASE</li></u></h2>
+
+		<p>Database name used: <b>ONLINE BANKING SYSTEM.</b></p>
+		<ul type="square"><h3><u><i><li>Tables</li></i></u></h3>
+
+
+			<ol><li><b>USER TABLE Table</b></li> 
+
+<p> The User table in the database of an online banking system is a crucial component that stores essential user information for account management and security purposes. Here is a detailed description of the User table structure based on the provided sources.</p></br>
+
+  <li><b>CUSTOMER TABLE</b></li>
+
+			<p>This CUSTOMER   table in the  customer table and it will be created by the user, and it will be accessed by the user who is already in the database .</p> </br>
+  
+			<li><b>CARD TABLE </b></li>
+
+			<p>card table  database structure This table Stores details or information about the customer providing the cadr detail, including card_id(int)as primary key  , card_name, expiry date and card type  </p></br>
+
+			<li><b>TRANSACTION TABLE</b></li>
+
+			<p> 
+ Transaction table in a database for an online banking system typically includes essential fields to record financial transactions accurately.  
+Transaction Table Fields
+TransactionID, A unique identifier for each transaction.
+AccountID, The account associated with the transaction.
+Type, Indicates the type of transaction (e.g., deposit, withdrawal, transfer).
+Amount, The monetary value involved in the transaction.</p></br>
+
+<li><b>ACCOUNT TABLE</b></li>
+<p> The Account table in a database for an online banking system typically stores crucial information related to bank accounts, customers, and transactions. Here is an overview of the Account table structure based on the provided sources:
+Account Table Fields,
+AccountID, AS PRIMARY KEY.
+CustomerID,as foreign key.
+Type, (e.g., savings, checking).
+ 
+ </p></br>
+ 
+<li><b>BRANCH TABLE</b></li> </ol>
+
+ <p>The Branch table in a database for an online banking system typically stores information related to bank branches, including details such as branch names, locations, and assets. Here is an overview of the Branch table structure based on the provided sources:
+Branch Table Fields,
+BranchName, Name of the bank branch.
+BranchCity, City where the branch is located.
+ </p></br>
+
+
+
+			              <h3><u><i><li>Attributes</li></i></u></h3>
+
+   <b>Attributes of Ccustome table:</b></br>
+     
+
+    <p><b><i>fname, lname:</i></b> The columns which are represents first name and last name of customer.</br></p> 
+
+    <p><b><i>phone:</i></b> The column which are represents telephone number of user.</br></p>
+
+    <p><b><i>e_mail:</i></b> The column which are represents or store email of user.</br></p> 
+
+   
+
+   <b>Attributes of  card Table</b></br> 
+
+    Here are the descriptions or purposes of the attributes/columns used in coffee varieties table:</br>
+
+    <p><b><i>card name:</i></b> The columns which are represents name of card.</br></p> 
+
+    <p><b><i>card number:</i></b> The column which are represents card number.</br></p>
+
+    <p><b><i>expiry date:</i></b> The column which are represents when card will be expiry.</br></p> 
+
+
+    
+
+<b>Attributes of transaction</b></br> 
+
+    Here are the descriptions or purposes of the attributes/columns used in farmers table:</br>
+
+    <p><b><i>tra_id(int) :</i></b> The columns which are represents primary key as usual.</br></p> 
+
+    <p><b><i> tra_number(varchar)    :</i></b> The column which are represents number of transaction  </br></p>
+
+    <p><b><i>tra_type:</i></b> The column which are represents  the type of transaction.</br></p> 
+
+ 
+		<h2><u><li>JAVA</li></u></h2>
+		
+		<ul type="square"><h3><u><i><li>Description</li></i></u></h3>
+
+			    <p><li style="display: inline; background-color:pink; margin-right: 10px"> INTRODUCTION</li></p>
+<ol><li><b>JAVA PROGRAMMING</b></li>
+<p>Java is a widely used, high-level, object-oriented programming language known for its portability, reliability, and versatility. Here's a detailed description:</p>
+ 
+<p>Object-Oriented: Java is fundamentally object-oriented, meaning it revolves around the concept of classes and objects. Objects encapsulate data and behavior, promoting modular, reusable, and maintainable code.</p>
+ 
+<p>Platform-Independent: One of Java's most significant features is its platform independence. Java programs are compiled into bytecode, which can run on any device with a Java Virtual Machine (JVM) installed. This "write once, run anywhere" capability makes Java highly portable across different operating systems and hardware architectures.</p>
+ 
+<p>Robust and Secure: Java is designed with a strong emphasis on reliability and security. It incorporates features like automatic memory management through garbage collection, exception handling, and strict type checking to ensure robustness. Additionally, Java's bytecode verification process enhances security by preventing unauthorized code execution.</p>
+ 
+<p>Multi-threaded: Java supports multithreading, allowing concurrent execution of multiple threads within a single program. This feature facilitates the development of responsive and scalable applications, making Java suitable for building server-side applications, graphical user interfaces (GUIs), and multimedia applications.</p>
+ 
+<p>Rich Standard Library: Java comes with an extensive standard library (Java API) that provides ready-to-use classes and methods for various tasks. The Java API covers areas such as input/output (I/O), networking, database connectivity, graphical user interface (GUI) development, and more. This rich set of libraries simplifies development and accelerates the creation of Java applications.</p>
+ 
+<p>Community Support and Ecosystem: Java benefits from a large and active community of developers, enthusiasts, and organizations. This vibrant ecosystem contributes to the continuous evolution of the language through updates, frameworks, libraries, and tools. Java's popularity and widespread adoption ensure ample resources, documentation, and support available for developers.</p>
+ 
+<p>Used Across Diverse Applications: Java finds applications in a wide range of domains, including web development, enterprise software, mobile app development (Android), scientific computing, financial services, and more. Its versatility and scalability make it a popular choice for building large-scale, mission-critical systems.</p>
+ 
+<li><b>	The Java programming environment consists of several components:</b></li>
+
+<p>Java Development Kit (JDK): Provides tools for developing Java applications, including the Java compiler (javac), the Java Virtual Machine (JVM), and various utilities.</p>
+
+<p>Integrated Development Environments (IDEs): Software tools that facilitate Java development by providing features such as code editing, debugging, and project management. Popular Java IDEs include Eclipse, IntelliJ IDEA, and NetBeans.</p>
+<p>Java Runtime Environment (JRE): Includes the JVM and libraries necessary for running Java applications. It allows users to execute Java programs without needing the development tools provided by the JDK.</p>
+
+<p>Java Application Programming Interface (API): A collection of pre-written Java classes and interfaces organized into packages. The Java API provides a vast array of functionality for tasks such as input/output operations, networking, GUI development, and more.</p>
+ 
+<p>JDBC, which stands for Java Database Connectivity, is a Java API that allows Java applications to interact with relational databases. It provides a standard interface for connecting to relational databases and executing SQL queries. JDBC enables Java applications to perform database operations such as inserting, updating, deleting, and querying data.</p>
+   <h2><bold><li>The steps involved in establishing connectivity using JDBC typically include:</li></bold></h2>
+ 
+   <li><b> Import JDBC Packages:</b></li>
+      <p>Import the necessary JDBC packages in your Java program. These packages include `java.sql` and specific database driver packages.</p>
+ 
+   <li><b> Load and Register the JDBC Driver:
+      <p>Use `Class.forName( )` to dynamically load and register the JDBC driver for the specific database you're connecting to. This step is necessary to inform the DriverManager about the database driver.</p>
+ 
+   ``<P>`java
+      Class.forName("com.mysql.cj.jdbc.Driver");</p>
+   ```
+ 
+   <li><b> Create a Connection:</b></li>
+      <p>Use the `DriverManager.getConnection( )` method to establish a connection to the database. You need to provide the URL of the database, username, and password.</p>
+ 
+   ``<P>`java
+   Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/your_database", "username", "password");</p>
+   ```
+ 
+   <li><b>Create a Statement:</b></li>
+      <p>Create a Statement or PreparedStatement object to execute SQL queries. Statements are used for executing static SQL queries, while PreparedStatements are preferred for parameterized queries.</p>
+ 
+   ``<p>`java
+   Statement statement = connection.createStatement();</p>
+   ```
+ 
+   <li><b> Execute SQL Queries:</b></li>
+      <P>Use the Statement or PreparedStatement objects to execute SQL queries and receive results.</P>
+ 
+   <p>java
+   ResultSet resultSet = statement.executeQuery("SELECT * FROM your_table");</p>
+   ```
+ 
+   <li><b> Process Results:</b></li>
+     <p> Process the results obtained from the executed queries.</p>
+ 
+   <li><b> Close Resources:</b></li></ol>
+      <p>Close the ResultSet, Statement, and Connection objects to release resources and avoid memory leaks.</p>
+ 
+   <p>`java
+   resultSet.close();
+   statement.close();
+   connection.close();</p>
+
+
+
+			              <h3><u><i><li>Forms and Images</li></i></u></h3>
+
+
+			              <b><i>customer form</i></b><br>
+			              <img src=" customer.png" width=800 height=400><br>
+
+                          <b><i> card form</i></b><br><br>
+			              <img src="card (2).png" width=800 height=400><br><br><br>
+
+
+                          <b><i> branch form</i></b><br><br>
+			              <img src="bra.png" width=800 height=400><br><br><br>
+
+                           
+                           <b><i> transaction form</i></b><br><br>
+			              <img src="tra.png" width=800 height=400><br><br><br>
+
+                          <b><i> account form</i></b><br><br>
+			              <img src="account.png" width=800 height=400><br><br><br>
+
+        </ul>
+		
+	</ol>
+	 
+	</body>
+	</html>
